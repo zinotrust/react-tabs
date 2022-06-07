@@ -324,17 +324,12 @@ p {
   margin-right: 1rem;
 }
 
+.--flex-dir-column {
+  display: flex;
+}
+
 @media screen and (max-width: 600px) {
-  .--flex-center {
-    flex-direction: column;
-  }
-  .--flex-start {
-    flex-direction: column;
-  }
-  .--flex-end {
-    flex-direction: column;
-  }
-  .--flex-between {
+  .--flex-dir-column {
     flex-direction: column;
   }
 }

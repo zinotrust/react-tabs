@@ -1,9 +1,10 @@
 import "./App.scss";
+import Tabs from "./components/tabs/Tabs";
 
 function App() {
   return (
     <div>
-      <h1>Hello World!!!</h1>
+      <Tabs />
     </div>
   );
 }
